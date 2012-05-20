@@ -1,0 +1,9 @@
+name: WordRankUp
+version: 1.0
+description: Ranks the player up when they say a codeword.
+author: sacnoth
+website: http://www.bukkit.org
+
+main: me.sacnoth.wordrankup.WordRankUp
+database: false
+softdepend: [PermissionsEx]

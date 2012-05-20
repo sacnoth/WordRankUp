@@ -1,0 +1,66 @@
+Version: 1.0
+Features:
+
+This Plugin allows your players to be promoted when they enter a codeword in the chat.
+
+You can hide a codeword in your server's rules and have the players enter the codeword in the chat in order to be promoted.
+Installation:
+
+    Place WordRankUp.jar in the /plugins folder of your server.
+    Customize config.
+    Enjoy! 
+
+Configuration:
+
+    The plugin will create a config.yml in which you can customize the codeword(s).
+    This is what a new config looks like: 
+
+language:
+  success: You are now a
+  successChat: I am now a
+password24571350:
+  group: member
+  name: registered player
+
+    You can change what codeword the players have to enter in the chat, to be promoted. (Here: password24571350, the numbers are diffrent in every config for security reasons)
+    The group option defines, which group the player will be assigned to when ranking up (here: member).
+    The name option defines the name of the group, this is just for the message the player will get when ranking up.
+    You are also able to change several language options.
+    You can add as many codewords as you like, as long as you follow this template and it is a single word. (No spaces and special characters) 
+
+Permissions:
+
+Supports PermissionsEX (PEX)
+
+    wordrankup.<codeword>
+        Allows the user to rank up via the specified codeword.
+        e.g. wordrankup.password24571350 allows the user to rank up with the codeword 'password24571350'. 
+
+Commands:
+
+None - The codeword is automatically detected in the chat, caseinsensitive.
+
+Expample:
+
+Password: bubble
+User says 'bubble' -> gets promoted
+User says 'BuBBle' -> gets promoted
+User says 'bubbles' -> does not get promoted
+User says 'a bubble' -> does not get promoted
+
+The plugin will try to change the message the player send to 'I am now a <group name>' after he successfully entered the codeword, this does not work on every server.
+Downloads:
+
+    Download
+    German Localization
+    Source 
+
+Changelog:
+
+    Version 1.0:
+        Initial Release 
+
+Donate:
+
+    PayPal (EUR)
+    PayPal (USD)
