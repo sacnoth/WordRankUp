@@ -1,4 +1,4 @@
-Version: 1.0
+Version: 1.1
 Features:
 
 This Plugin allows your players to be promoted when they enter a codeword in the chat.
@@ -30,7 +30,11 @@ password24571350:
 
 Permissions:
 
-Supports PermissionsEX (PEX)
+Supports PermissionsEX (PEX) natively, other permissions plugins are supported via Vault.
+
+http://dev.bukkit.org/server-mods/vault/
+
+You have to install Vault if you are using another plugin than PEX for your permissions management. A list of supported plugins can be found on vault's page.
 
     wordrankup.<codeword>
         Allows the user to rank up via the specified codeword.
@@ -57,6 +61,8 @@ Downloads:
 
 Changelog:
 
+    Version 1.1:
+        Supports now other permissions plugins than PEX via Vault 
     Version 1.0:
         Initial Release 
 
